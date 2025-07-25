@@ -1,18 +1,18 @@
 {
-    "title": "In the Connecting the Dots Challenge, your mission is to reimagine the humble",
+    "title": "Welcome to the “Connecting the Dots” Challenge",
     "outline": [
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Welcome to the “Connecting the Dots” Challenge",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Rethink Reading. Rediscover Knowledge",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "What if every time you opened a PDF, it didn’t just sit there—it spoke to you,",
             "page": 2
         },
@@ -22,7 +22,7 @@
             "page": 2
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "That’s the future we’re building — and we want you to help shape it.",
             "page": 2
         },
@@ -32,17 +32,17 @@
             "page": 2
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "PDF as an intelligent, interactive experience—one that understands structure,",
             "page": 2
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "surfaces insights, and responds to you like a trusted research companion.",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "The Journey Ahead",
             "page": 2
         },
@@ -52,22 +52,22 @@
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Kick things off by building the brains — extract structured outlines from",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "raw PDFs with blazing speed and pinpoint accuracy. Then, power it up",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "with on-device intelligence that understands sections and links related",
             "page": 2
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "ideas together.",
             "page": 2
         },
@@ -77,22 +77,22 @@
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "It’s showtime! Build a beautiful, intuitive reading webapp using Adobe’s",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "PDF Embed API. You will be using your Round 1 work to design a",
             "page": 2
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "futuristic webapp.",
             "page": 2
         },
         {
-            "level": "H3",
+            "level": "H2",
             "text": "Why This Matters",
             "page": 2
         },
@@ -102,17 +102,17 @@
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "context. You’re not just building tools — you’re building the future of how we",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "read, learn, and connect. No matter your background — ML hacker, UI builder,",
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "or insight whisperer — this is your stage.",
             "page": 2
         },
@@ -122,7 +122,7 @@
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "It’s time to read between the lines. Connect the dots. And build a PDF",
             "page": 2
         },
@@ -132,12 +132,12 @@
             "page": 2
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Round 1A: Understand Your Document",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Challenge Theme: Connecting the Dots Through Docs",
             "page": 3
         },
@@ -147,17 +147,17 @@
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "You're handed a PDF — but instead of simply reading it, you're tasked with",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "making sense of it like a machine would. Your job is to extract a structured",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "outline of the document — essentially the Title, and headings like H1, H2, and",
             "page": 3
         },
@@ -167,27 +167,27 @@
             "page": 3
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "This outline will be the foundation for the rest of your hackathon journey.",
             "page": 3
         },
         {
-            "level": "H3",
+            "level": "H2",
             "text": "Why This Matters",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "PDFs are everywhere — but machines don’t naturally understand their",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "structure. By building an outline extractor, you’re enabling smarter document",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "experiences, like semantic search, recommendation systems, and insight",
             "page": 3
         },
@@ -197,17 +197,12 @@
             "page": 3
         },
         {
-            "level": "H2",
-            "text": "What You Need to Build",
-            "page": 3
-        },
-        {
-            "level": "H2",
+            "level": "H1",
             "text": "You must build a solution that:",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Accepts a PDF file (up to 50 pages)",
             "page": 3
         },
@@ -237,7 +232,7 @@
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "\"title\": \"Understanding AI\",",
             "page": 3
         },
@@ -247,17 +242,17 @@
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "{ \"level\": \"H1\", \"text\": \"Introduction\", \"page\": 1 },",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "{ \"level\": \"H2\", \"text\": \"What is AI?\", \"page\": 2 },",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "{ \"level\": \"H3\", \"text\": \"History of AI\", \"page\": 3 }",
             "page": 3
         },
@@ -272,17 +267,17 @@
             "page": 3
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "You Will Be Provided",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "1. A sample input PDF (e.g., sample.pdf)",
             "page": 3
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "2. A sample ground truth output (sample.json) for format clarity",
             "page": 3
         },
@@ -297,7 +292,7 @@
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Docker Requirements",
             "page": 4
         },
@@ -307,22 +302,22 @@
             "page": 4
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "• Please ensure your Dockerfile is compatible with AMD64",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "architecture. Since we will build and run the image on an AMD64",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "machine, your base image and any dependencies should support",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "linux/amd64. Optionally, you can include the following in your",
             "page": 4
         },
@@ -332,27 +327,27 @@
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "platform=linux/amd64 <base_image>",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• CPU architecture: amd64 (x86_64)",
             "page": 4
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "• No GPU dependencies",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Model size (if used) ≤ 200MB",
             "page": 4
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "• Should work offline — no network/internet calls",
             "page": 4
         },
@@ -362,12 +357,12 @@
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "We will build the docker image using the following command:",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "```docker build --platform linux/amd64 -t",
             "page": 4
         },
@@ -377,7 +372,7 @@
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "After building the image, we will run the solution using the run command",
             "page": 4
         },
@@ -392,27 +387,27 @@
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "network none mysolutionname:somerandomidentifier```",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Your container should:",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Automatically process all PDFs from /app/input directory,",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "generating a corresponding filename.json in /app/output for each",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "filename.pdf",
             "page": 4
         },
@@ -422,7 +417,7 @@
             "page": 4
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Constraints",
             "page": 4
         },
@@ -432,42 +427,42 @@
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Execution ≤ 10 seconds for a 50-page",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "time PDF",
             "page": 4
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Model size ≤ 200MB (if used)",
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "No internet access",
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Network",
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "allowed",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Must run on CPU (amd64),",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "your solution should run on",
             "page": 5
         },
@@ -477,22 +472,22 @@
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "the system with 8 CPUs and",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "16 GB RAM configurations",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Scoring Criteria",
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Max",
             "page": 5
         },
@@ -502,12 +497,12 @@
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Points",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Heading Detection Accuracy (Precision +",
             "page": 5
         },
@@ -517,17 +512,17 @@
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Recall)",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Performance (Time & Size Compliance) 10",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Bonus: Multilingual Handling (e.g.,",
             "page": 5
         },
@@ -537,17 +532,17 @@
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H2",
             "text": "Japanese)",
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Total 45",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Submission Checklist",
             "page": 5
         },
@@ -557,17 +552,17 @@
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "2. A working Dockerfile",
             "page": 5
         },
         {
-            "level": "H1",
+            "level": "H2",
             "text": "3. All dependencies installed within the container",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "4. A README.md that explains:",
             "page": 5
         },
@@ -582,12 +577,12 @@
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "o How to build and run your solution (This is purely for",
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "documentation purpose, your solution should run using the",
             "page": 5
         },
@@ -597,7 +592,7 @@
             "page": 5
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Pro Tips",
             "page": 5
         },
@@ -607,7 +602,7 @@
             "page": 5
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "headings in some PDFs break that assumption.",
             "page": 5
         },
@@ -632,27 +627,27 @@
             "page": 6
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "deadline, you will be informed, when to make the repo public.",
             "page": 6
         },
         {
-            "level": "H3",
+            "level": "H2",
             "text": "What Not to Do",
             "page": 6
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Do not hardcode headings or file-specific logic",
             "page": 6
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "• Do not make API or web calls",
             "page": 6
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Do not exceed the runtime/model size constraints",
             "page": 6
         },
@@ -672,12 +667,12 @@
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Theme: “Connect What Matters — For the User Who Matters”",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Challenge Brief (For Participants)",
             "page": 7
         },
@@ -687,7 +682,7 @@
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "and prioritizing the most relevant sections from a collection of documents based",
             "page": 7
         },
@@ -712,17 +707,17 @@
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "3. Job-to-be-Done: Concrete task the persona needs to accomplish",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Document collection, persona and job-to-be-done can be very diverse. So, the",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "solution that teams need to build needs to be generic to generalize to this",
             "page": 7
         },
@@ -732,17 +727,17 @@
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Documents can be from any domain (Example: Research papers,",
             "page": 7
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "school/college books, financial reports, news articles etc.)",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Persona can again be very diverse (Example: Researcher, Student,",
             "page": 7
         },
@@ -757,27 +752,27 @@
             "page": 7
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Provide a literature review for a given topic and available research",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "papers, What should I study for Organic Chemistry given the",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "chemistry documents, Summarize the financials of corporation xyz",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "given the detailed year end financial reports etc.)",
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Sample Test Cases",
             "page": 7
         },
@@ -787,12 +782,12 @@
             "page": 7
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Documents: 4 research papers on \"Graph Neural Networks for",
             "page": 7
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Drug Discovery\"",
             "page": 7
         },
@@ -807,7 +802,7 @@
             "page": 7
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "methodologies, datasets, and performance benchmarks\"",
             "page": 7
         },
@@ -817,7 +812,7 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Documents: 3 annual reports from competing tech companies",
             "page": 8
         },
@@ -832,12 +827,12 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Job: \"Analyze revenue trends, R&D investments, and market",
             "page": 8
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "positioning strategies\"",
             "page": 8
         },
@@ -847,7 +842,7 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Documents: 5 chapters from organic chemistry textbooks",
             "page": 8
         },
@@ -857,27 +852,27 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Job: \"Identify key concepts and mechanisms for exam preparation",
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "on reaction kinetics\"",
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Required Output",
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Output JSON format: Refer challenge1b_output.json",
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "The output should contain:",
             "page": 8
         },
@@ -887,7 +882,7 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "a. Input documents",
             "page": 8
         },
@@ -902,22 +897,22 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "d. Processing timestamp",
             "page": 8
         },
         {
-            "level": "H1",
+            "level": "H2",
             "text": "2. Extracted Section:",
             "page": 8
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "a. Document",
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "b. Page number",
             "page": 8
         },
@@ -927,7 +922,7 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "d. Importance_rank",
             "page": 8
         },
@@ -937,7 +932,7 @@
             "page": 8
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "a. Document",
             "page": 8
         },
@@ -947,7 +942,7 @@
             "page": 8
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "c. Refined Text",
             "page": 8
         },
@@ -957,7 +952,7 @@
             "page": 8
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "• Must run on CPU only",
             "page": 8
         },
@@ -972,27 +967,27 @@
             "page": 8
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "documents)",
             "page": 8
         },
         {
-            "level": "H1",
+            "level": "H2",
             "text": "• No internet access allowed during execution",
             "page": 8
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Deliverables",
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• approach_explanation.md (300-500 words explaining",
             "page": 9
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "methodology)",
             "page": 9
         },
@@ -1002,7 +997,7 @@
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Sample input/output for testing",
             "page": 9
         },
@@ -1012,22 +1007,22 @@
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Scoring Criteria",
             "page": 9
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Max",
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Criteria Points Description",
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "How well selected sections match",
             "page": 9
         },
@@ -1037,22 +1032,22 @@
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "proper stack ranking",
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Quality of granular subsection",
             "page": 9
         },
         {
-            "level": "H1",
+            "level": "H2",
             "text": "Sub-Section Relevance 40",
             "page": 9
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "extraction and ranking",
             "page": 9
         },

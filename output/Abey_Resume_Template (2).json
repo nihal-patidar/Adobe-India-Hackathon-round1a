@@ -27,23 +27,33 @@
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
+            "text": "TECHNICAL SKILLS",
+            "page": 1
+        },
+        {
+            "level": "H1",
             "text": "Frontend Technologies: HTML, CSS, TailwindCSS, ReactJS, Redux, NextJS, TypeScript",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Backend Technologies: NodeJs, ExpressJs Programming Languages: C++, JavaScript",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Developer Tools: Git, Github, VS Code, Postman Database: MongoDB , MySQL",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "CS Fundamentals: OOP, OS, CN, DBMS, DSA Other: DigitalOcean, Docker, Linux, Firebase",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "EXPERIENCE",
             "page": 1
         },
         {
@@ -57,7 +67,7 @@
             "page": 1
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "and stakeholders.",
             "page": 1
         },
@@ -77,7 +87,7 @@
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Integrated and queried databases using SQL, MongoDB, and Firebase for efficient data handling.",
             "page": 1
         },
@@ -87,7 +97,7 @@
             "page": 1
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "Collaborated in a 5+ member team to deliver Smart City projects with 100% on-time execution.",
             "page": 1
         },
@@ -97,22 +107,22 @@
             "page": 1
         },
         {
-            "level": "H3",
+            "level": "H1",
             "text": "PROJECTS",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Secure Entry  | ReactJs,JavaScript,Tailwind,NodeJS,MongoDB,Firebase,Digital Ocean Dec 2024",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Developed Secure Entry for generating QR Tickets and Management for Multiple Events",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Provides Personalised Event Form Builder with Payment Gateway and Data into ExcelSheet.",
             "page": 1
         },
@@ -132,7 +142,7 @@
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "QR Ticket Scanner  | ReactJS,NextJS,TypeScript,Tailwind,MongoDB Dec 2024",
             "page": 1
         },
@@ -162,18 +172,23 @@
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Hourly Journal  | HTML,CSS,JavaScript,ReactJS,NodeJS,MongoDB Oct 2023",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Tasks per hour every day.",
             "page": 1
         },
         {
             "level": "H2",
             "text": "• Tracking Daily, Weekly and Monthly Goals. Data are saved on Remote Servers to prevent loss.",
+            "page": 1
+        },
+        {
+            "level": "H1",
+            "text": "ACHIVEMENTS",
             "page": 1
         },
         {
@@ -202,7 +217,7 @@
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "System for Inertia. managed 2000+ students for QR scanning.",
             "page": 1
         },
@@ -217,12 +232,12 @@
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "• Developed an AI-based Browser Extension to detect Dark Patterns in e-commerce websites.",
             "page": 1
         },
         {
-            "level": "H2",
+            "level": "H1",
             "text": "Integrated BERT and XLNet models using Python to enhance pattern detection.",
             "page": 1
         },

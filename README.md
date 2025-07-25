@@ -1,66 +1,184 @@
-# 📄 PDF Heading Extractor
+# 🧠 PDF Heading Extractor
 
-Automatically extract structured headings (**H1**, **H2**, **H3**) from PDF documents using a combination of **pdfplumber** and a **fine-tuned DistilBERT model**.
-
----
-
-## ✨ Overview
-
-This project is designed to convert raw PDF files into a well-organized hierarchy of headings. It detects the structural layout of documents by semantically identifying heading levels using machine learning.
+Automatically extract structured headings (**H1**, **H2**, **H3**) from PDF documents using a **fine-tuned DistilBERT transformer model**. The tool reads PDF content line by line, classifies headings, identifies the document title, and outputs a clean JSON outline. It supports both **local Python execution** and **Docker-based containerization**.
 
 ---
 
-## 🛠️ Features
+## 🚀 Approach
+![Image1](pic1.png)
 
-- ✅ **Heading Classification**: Detects and classifies headings as H1, H2, or H3.
-- ✅ **Layout-Aware Text Extraction**: Uses `pdfplumber` to respect the spatial layout of the PDF.
-- ✅ **BERT-powered Intelligence**: Leverages a fine-tuned DistilBERT model for semantic understanding.
-- ✅ **Scalable & Fast**: Lightweight yet robust — ready for large batches of documents.
+### 📄 1. PDF Parsing
+- We use `pdfplumber` to extract clean, line-by-line text from PDF files.
+- Each line is treated independently to maximize accuracy in identifying headers.
 
----
+### 🧼 2. Text Cleaning
+- Removes null characters and control characters that often appear in PDFs.
+- Ensures cleaner input for the classification model.
 
-## 🧠 How It Works
+### 🤖 3. Heading Classification
+- A **fine-tuned DistilBERT** model is used to classify each line into:
+  - `H1` – Main title or section
+  - `H2` – Subsection
+  - `H3` – Sub-subsection
+  - `None` – Not a heading
 
-1. **PDF Parsing**: `pdfplumber` extracts text blocks with metadata (like font size and position).
-2. **Feature Extraction**: Text features (e.g., font size, indentation, text casing) are prepared.
-3. **Model Prediction**: A fine-tuned DistilBERT model predicts the heading level (H1, H2, H3).
-4. **Structured Output**: Headings are output in a hierarchical structure (e.g., JSON or tree format).
+### 🧠 4. Heuristic Enhancements (Optional)
+- Short lines, fully capitalized text, or title-cased text may receive a small boost.
+- This can improve performance in borderline cases.
 
----
+### 🏷️ 5. Title Detection
+- The first `H1` detected is assumed to be the **document title**.
 
-## 📦 Tech Stack
-
-| Component       | Description                              |
-|-----------------|------------------------------------------|
-| **Python**      | Programming Language                     |
-| **pdfplumber**  | PDF layout-aware text extraction         |
-| **DistilBERT**  | Transformer model for heading detection  |
-| **Pandas**      | Data processing and feature engineering  |
-
----
-
-## 📈 Use Cases
-
-- 🧾 Summarizing large documents
-- 📚 Auto-generating Table of Contents
-- 🔍 Feeding structured content into NLP pipelines
-- 📂 Converting unstructured PDFs into knowledge graphs
+### 📤 6. Structured Output
+- Output is saved in a readable JSON format with:
+  - Heading level
+  - Text content
+  - Page number
 
 ---
 
-## 🚀 Why This Approach?
+## 📚 Models and Libraries Used
 
-Traditional methods rely heavily on:
-- Font sizes
-- Boldness
-- Spacing
+### 🔧 Libraries
+- `pdfplumber` – Precise PDF line extraction
+- `transformers` – Tokenization and model inference
+- `torch` – PyTorch backend for model prediction
+- `re`, `json` – Text cleaning and file output
 
-But they **fail** when:
-- Styles vary across documents
-- PDFs are scanned or poorly formatted
+### 🤖 Model
+- Fine-tuned `DistilBERT` stored locally in:
 
-By combining **visual cues** and **semantic understanding**, this project produces **highly accurate** and **human-like** heading classification.
+### 📌 Description of Files
+
+| File Name              | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| `config.json`          | Defines the structure of the DistilBERT model (layers, hidden units, etc.) |
+| `pytorch_model.bin`    | Contains the fine-tuned weights used during inference                      |
+| `tokenizer_config.json`| Configuration for the tokenizer, including case sensitivity and truncation |
+| `vocab.txt`            | List of all tokens recognized by the model's tokenizer                     |
 
 ---
 
-Let me know if you'd like a demo snippet, visualization, or integration example added!
+✅ This model is stored **locally** to avoid re-downloading from Hugging Face and ensure fast, offline predictions.
+
+Let me know if you want to include download instructions, upload tips, or how to load this with Hugging Face Transformers!
+
+
+### 🔍 Folder & File Overview
+
+| Path                         | Description                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| `input/hindi.pdf`            | PDF file to be processed                                                   |
+| `output/output.json`         | Output file containing structured heading hierarchy                        |
+| `local_distilbert_model/`    | Contains the model files (`config.json`, `vocab.txt`, etc.)               |
+| `main.py`                    | Core script that ties together PDF reading, heading classification, and output |
+| `requirements.txt`           | Lists Python packages needed to run the project                            |
+| `Dockerfile`                 | Setup for containerized execution                                          |
+| `README.md`                  | Full documentation and usage instructions                                  |
+
+---
+
+> 🧠 **Pro Tip:** Want to process a new PDF? Just drop it in the `input/` folder and run `main.py`!
+
+Let me know if you want me to generate a `run` command block or add `Quick Start` instructions next.
+
+
+## 📝 Extracted PDF Outline
+
+### 📌 Title (Multilingual)
+
+| Language | Title                      |
+|----------|----------------------------|
+| English  | Annual Report 2023         |
+| Japanese | 2023年 年次報告書             |
+| Hindi    | वार्षिक रिपोर्ट 2023          |
+
+### ✔️ Hindi.pdf file Accuracy (Hindi Language)
+![hindi](hindi.png)
+
+### ✔️ Data.pdf file Accuracy (English Language)
+![data](data.png)
+---
+
+### 🧾 Document Outline
+
+| Heading Level | Page | English Text              | Japanese Text     | Hindi Text                  |
+|---------------|------|---------------------------|-------------------|-----------------------------|
+| H1            | 1    | Introduction              | はじめに            | परिचय                       |
+| H2            | 2    | Objectives of the Study   | 研究の目的           | अध्ययन के उद्देश्य           |
+
+---
+
+> ✅ This output demonstrates **multilingual heading detection** with structured hierarchy (H1 → H2) for cross-lingual PDF documents.
+
+
+
+## 🛠️ How to Build and Run the Solution
+
+You can run this project in **two ways**:  
+👉 Directly using Python  
+👉 Using Docker (recommended for isolated environments)
+
+---
+## 🧪 Option 1: Run Locally (Python)
+
+### 1. Clone the repository (It is Private repository)
+
+```bash
+git clone https://github.com/nihal-patidar/Adobe-India-Hackathon-round1a.git  {when Public}
+cd Adobe-India-Hackathon-round1a 
+```
+
+### 2. Set up virtual environment (recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Add your PDFs
+
+Place your input PDF files in the following directory:
+
+```
+input/yourfile.pdf
+```
+
+### 5. Run the script
+
+```bash
+python main.py
+```
+
+The output JSON will be generated at:
+
+```
+/output/output_bround.json
+```
+
+---
+
+## 🐳 Option 2: Run via Docker
+
+### 1. Build the Docker image
+
+```bash
+docker build -t pdf-extractor .
+```
+
+### 2. Run the container
+
+```bash
+docker run --rm -v $(pwd)/data:/app/data pdf-extractor
+```
+
+Ensure that:
+
+- Your input PDFs are located in data/input/
+- The extracted output will appear in data/output/output_bround.json
