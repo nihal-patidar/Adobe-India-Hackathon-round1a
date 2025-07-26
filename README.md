@@ -181,8 +181,6 @@ git clone https://github.com/nihal-patidar/Adobe-India-Hackathon-round1a.git  {w
 cd Adobe-India-Hackathon-round1a 
 ```
 
-
-
 ### 2. Setup Model Locally
 
 ```bash
@@ -197,13 +195,22 @@ cd Adobe-India-Hackathon-round1a
 docker build -t pdf-extractor .
 ```
 
-### 4. Run the container
+### 4. Run the container (use PowerShell if window) 
 
 ```bash
-docker run --rm -v $(pwd)/data:/app/data pdf-extractor
+docker run --rm -v "${PWD}\input:/app/input" -v "${PWD}\output:/app/output" pdf-extractor
 ```
+
+### 4. Run the container (For Linux/macOS/Git Bash users) 
+
+```bash
+docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output pdf-extractor
+```
+
+
+
 
 Ensure that:
 
 - Your input PDFs are located in data/input/
-- The extracted output will appear in data/output/output_bround.json
+- The extracted output will appear in data/output/your-pdf-name.json
