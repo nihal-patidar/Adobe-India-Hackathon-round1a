@@ -136,13 +136,20 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-### 3. Install dependencies
+### 3. Setup Model Locally
+
+```bash
+  # Run this command into your termianl
+  python model.py
+```
+
+### 4. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Add your PDFs
+### 5. Add your PDFs
 
 Place your input PDF files in the following directory:
 
@@ -150,7 +157,7 @@ Place your input PDF files in the following directory:
 input/yourfile.pdf
 ```
 
-### 5. Run the script
+### 6. Run the script
 
 ```bash
 python main.py
@@ -166,13 +173,28 @@ The output JSON will be generated at:
 
 ## 🐳 Option 2: Run via Docker
 
-### 1. Build the Docker image
+### 1. Clone the repository (It is Private repository)
+
+```bash
+git clone https://github.com/nihal-patidar/Adobe-India-Hackathon-round1a.git  {when Public}
+cd Adobe-India-Hackathon-round1a 
+```
+
+### 2. Build the Docker image
 
 ```bash
 docker build -t pdf-extractor .
 ```
 
-### 2. Run the container
+
+### 3. Setup Model Locally
+
+```bash
+  # Run this command into your termianl
+  python model.py
+```
+
+### 4. Run the container
 
 ```bash
 docker run --rm -v $(pwd)/data:/app/data pdf-extractor
