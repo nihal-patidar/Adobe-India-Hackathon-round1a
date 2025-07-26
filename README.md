@@ -72,6 +72,7 @@ Let me know if you want to include download instructions, upload tips, or how to
 | `output/output.json`         | Output file containing structured heading hierarchy                        |
 | `local_distilbert_model/`    | Contains the model files (`config.json`, `vocab.txt`, etc.)               |
 | `main.py`                    | Core script that ties together PDF reading, heading classification, and output |
+| `model.py`                    | Downloads the model and save it for further us|
 | `requirements.txt`           | Lists Python packages needed to run the project                            |
 | `Dockerfile`                 | Setup for containerized execution                                          |
 | `README.md`                  | Full documentation and usage instructions                                  |
@@ -180,18 +181,20 @@ git clone https://github.com/nihal-patidar/Adobe-India-Hackathon-round1a.git  {w
 cd Adobe-India-Hackathon-round1a 
 ```
 
-### 2. Build the Docker image
+
+
+### 2. Setup Model Locally
 
 ```bash
-docker build -t pdf-extractor .
+  # Run this command into your termianl this downloads the model
+  python model.py
 ```
 
 
-### 3. Setup Model Locally
+### 3. Build the Docker image
 
 ```bash
-  # Run this command into your termianl
-  python model.py
+docker build -t pdf-extractor .
 ```
 
 ### 4. Run the container
